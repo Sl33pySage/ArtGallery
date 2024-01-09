@@ -1,0 +1,38 @@
+body {
+    background-color: #eae5e9;
+    text-align: center;
+}
+
+
+svg {
+    height: 100%;
+    min-width: 18px;
+    width: 1.09375em;
+    margin: 5px;
+}
+
+ul {
+    display: flex;
+    display: inline-flex;
+}
+
+.landingCard {
+    padding: 20px;
+    box-shadow: 0rem 0.19rem .70rem .03rem rgba(24, 29, 68, 0.37);
+    border-radius: 40px;
+    background-color: white;
+    --alignment: center;
+    width: 80%;
+    max-width: 600px;
+    font-size: 16pt;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+
+.landingCard>ul {
+    list-style: none;
+}
